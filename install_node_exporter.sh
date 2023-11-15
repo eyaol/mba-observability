@@ -59,7 +59,7 @@ sudo echo "$node_exporter_service_content" | sudo tee "$node_exporter_service" >
 # reload daemon para reexaminar os arquivos de configuração do systemd
 sudo systemctl daemon-reload
 
-# inicializar o noded_exporter
+# inicializar o node_exporter
 sudo systemctl start node_exporter
 
 # habilitar inicializacao automática quando a instância reiniciar
